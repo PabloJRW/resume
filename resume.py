@@ -85,14 +85,14 @@ def txt3(a, b):
   with col2:
     st.markdown(b)
   
-def txt4(a, b, c):
+def txt4(a, b, url):
   col1, col2, col3 = st.columns([1.5,2,2])
   with col1:
     st.markdown(f'`{a}`')
   with col2:
     st.markdown(b)
   with col3:
-    st.markdown(c)
+    st.markdown(f'[Ver Proyecto]({url})')
 
 #####################
 st.markdown('''
@@ -100,10 +100,10 @@ st.markdown('''
 ''')
 
 txt('**Lic. en Ingeniería de Operaciones y Logística Empresarial**, *Universidad de Panamá*',
-'2012')
+'2022')
 
 txt('**Técnico en Logística Empresarial**, *Universidad de Panamá*',
-'2012')
+'2022')
 
 
 #####################
@@ -121,14 +121,15 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Projects
+## Proyectos
 ''')
-txt4('Iris', 'Aplicación web para predecir la clase a la cual pertenece un Iris', 'https://deploying-ml-app-ght4v3x8j4p.streamlit.app/')
+txt4('Despliegue ML', 'Aplicación web de Machine Learning desplegada', 'https://deploying-ml-app-ght4v3x8j4p.streamlit.app/')
+txt4('Clustering', 'Segmentación de Clientes para una Tienda Tipo Walmart', 'https://subsequent-spectrum-167.notion.site/Segmentaci-n-de-Clientes-para-una-Tienda-Tipo-Walmart-992c154312d74ec1b50bd297ef06ca71?pvs=4')
 
 
 #####################
 st.markdown('''
-## Skills
+## Habilidades
 ''')
 txt3('Programming', '`Python`, `Linux`')
 txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
