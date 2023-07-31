@@ -8,7 +8,7 @@ with open("style.css") as f:
 # Header
 st.write('''
 # Pablo Ramos Wilkins
-##### *Resume*
+##### *Análisis de Datos - Ciencia de Datos - Aprendizaje Automático*
 ''')
 
 image = Image.open('yo.jpeg')
@@ -34,7 +34,7 @@ st.info('''
 st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
 
 st.markdown("""
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #5DBCD2">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #2D4D6D">
   <a class="navbar-brand" target="_blank">Pablo Ramos W</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -54,7 +54,13 @@ st.markdown("""
         <a class="nav-link" href="#proyectos">Proyectos</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="#habilidades">Habilidades</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#social-media">Social Media</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contacto">Contacto</a>
       </li>
     </ul>
   </div>
@@ -114,6 +120,12 @@ txt('**Auxiliar de Producción**, Nestlé, Natá',
 st.markdown('''
 - asasadffergedhdfhdgh
 ''')
+txt('**Supervisor**, Azucarera Nacional, S.A., El Roble, Aguadulce',
+'2011-2021')
+st.markdown('''
+- Supervisé el personal para la extracción de producto terminado (azúcar) del almacén.
+- Control de inventario. Análisis de datos en Excel.
+''')
 
 
 
@@ -124,6 +136,7 @@ st.markdown('''
 txt4('Despliegue de una Aplicación Web de modelo de Machine Learning', 'https://deploying-ml-app-ght4v3x8j4p.streamlit.app/')
 txt4('Segmentación de Clientes para una Tienda Tipo Walmart', 'https://subsequent-spectrum-167.notion.site/Segmentaci-n-de-Clientes-para-una-Tienda-Tipo-Walmart-992c154312d74ec1b50bd297ef06ca71?pvs=4')
 txt4('Pronóstico de Demanda de Pasajeros para una Aerolínea', 'https://subsequent-spectrum-167.notion.site/An-lisis-de-Serie-de-Tiempo-add61e2af3684495bc5cbece559fcb17?pvs=4')
+txt4('Predicción de Abando de Clientes - Análisis Exploratorio de Datos', 'https://subsequent-spectrum-167.notion.site/Predicci-n-de-abandono-de-clientes-An-lisis-Exploratorio-de-Datos-7d4266304daa4b5f9474ca56fbfd209e?pvs=4')
 
 #####################
 st.markdown('''
@@ -143,3 +156,10 @@ st.markdown('''
 txt2('LinkedIn', 'https://www.linkedin.com/in/pablo-ramos-w')
 txt2('Twitter', 'https://twitter.com/DataDevPablo')
 txt2('GitHub', 'https://github.com/PabloJRW')
+
+#####################
+st.markdown('''
+## Contacto
+''')
+txt2('Correo', 'pablo.datadev@gmail.com')
+txt2('Celular', '6777-8628')
