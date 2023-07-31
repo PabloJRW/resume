@@ -85,14 +85,12 @@ def txt3(a, b):
   with col2:
     st.markdown(b)
   
-def txt4(a, b, url):
-  col1, col2, col3 = st.columns([1.5,2,2])
+def txt4(a, b):
+  col1, col2 = st.columns([3,1])
   with col1:
-    st.markdown(f'`{a}`')
+    st.markdown(a)
   with col2:
-    st.markdown(b)
-  with col3:
-    st.markdown(f'[Ver Proyecto]({url})')
+    st.markdown(f'[Ver Proyecto]({b})')
 
 #####################
 st.markdown('''
@@ -123,9 +121,9 @@ st.markdown('''
 st.markdown('''
 ## Proyectos
 ''')
-txt4('Despliegue ML', 'Aplicación web de Machine Learning desplegada', 'https://deploying-ml-app-ght4v3x8j4p.streamlit.app/')
-txt4('Clustering', 'Segmentación de Clientes para una Tienda Tipo Walmart', 'https://subsequent-spectrum-167.notion.site/Segmentaci-n-de-Clientes-para-una-Tienda-Tipo-Walmart-992c154312d74ec1b50bd297ef06ca71?pvs=4')
-
+txt4('Despliegue de una Aplicación Web de modelo de Machine Learning', 'https://deploying-ml-app-ght4v3x8j4p.streamlit.app/')
+txt4('Segmentación de Clientes para una Tienda Tipo Walmart', 'https://subsequent-spectrum-167.notion.site/Segmentaci-n-de-Clientes-para-una-Tienda-Tipo-Walmart-992c154312d74ec1b50bd297ef06ca71?pvs=4')
+txt4('Pronóstico de Demanda de Pasajeros para una Aerolínea', 'https://subsequent-spectrum-167.notion.site/An-lisis-de-Serie-de-Tiempo-add61e2af3684495bc5cbece559fcb17?pvs=4')
 
 #####################
 st.markdown('''
