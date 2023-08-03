@@ -125,7 +125,7 @@ st.markdown('''
 st.markdown('''
 ## Portafolio
 ''')
-txt4('Despliegue de un modelo de Machine Learning como Aplicación Web', 'https://deploying-ml-app-ght4v3x8j4p.streamlit.app/')
+txt4('Despliegue de Aplicaciones para Predicción de Clases con Modelos de Machine Learning', 'https://subsequent-spectrum-167.notion.site/Despliegue-de-Aplicaciones-para-Predicci-n-de-Clases-con-Modelos-de-Machine-Learning-cbe64e5d079c495097ca90de35d11da3?pvs=4')
 txt4('Segmentación de Clientes para una Tienda Tipo Walmart', 'https://subsequent-spectrum-167.notion.site/Segmentaci-n-de-Clientes-para-una-Tienda-Tipo-Walmart-992c154312d74ec1b50bd297ef06ca71?pvs=4')
 txt4('Pronóstico de Demanda de Pasajeros para una Aerolínea', 'https://subsequent-spectrum-167.notion.site/An-lisis-de-Serie-de-Tiempo-add61e2af3684495bc5cbece559fcb17?pvs=4')
 txt4('Predicción de Abando de Clientes - Análisis Exploratorio de Datos', 'https://subsequent-spectrum-167.notion.site/Predicci-n-de-abandono-de-clientes-An-lisis-Exploratorio-de-Datos-7d4266304daa4b5f9474ca56fbfd209e?pvs=4')
