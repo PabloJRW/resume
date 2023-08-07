@@ -15,7 +15,12 @@ image = Image.open('yo.jpeg')
 st.image(image)
 
 st.markdown('## Resumen', unsafe_allow_html=True)
-resume_text = '''Apasionado por la tecnología y con una fuerte inclinación hacia el análisis de datos y la ciencia de datos. He desarrollado habilidades en exploración y análisis de datos, creación de visualizaciones, desarrollo de dashboards web interactivos, modelado con machine learning y despliegue de modelos utilizando Streamlit. Domino Python y sus librerías NumPy, Pandas, Flask, Streamlit y scikit-learn. Mi enfoque en la resolución de problemas me permite abordar desafíos técnicos con creatividad y eficiencia. Busco unirme a un equipo apasionado por la tecnología y el avance constante en el ámbito del análisis de datos y la ciencia de datos, donde mi determinación y entusiasmo sean activos valiosos para contribuir al éxito de la empresa.'''
+resume_text = '''Apasionado por la tecnología y con una fuerte inclinación hacia el análisis de datos y la ciencia de datos. 
+He desarrollado habilidades en exploración y análisis de datos, creación de visualizaciones, desarrollo de aplicaciones y 
+dashboards web interactivos, creación y despliegue de modelos de Machine Learning. Domino Python y sus librerías NumPy, 
+Pandas, Flask, Streamlit y scikit-learn. Mi enfoque en la resolución de problemas me permite abordar desafíos técnicos con 
+creatividad y eficiencia. Busco unirme a un equipo apasionado por la tecnología y el avance constante en el ámbito del análisis 
+de datos y la ciencia de datos, donde mi determinación y entusiasmo sean activos valiosos para contribuir al éxito de la empresa.'''
 st.markdown(f'<div style="text-align: justify">{resume_text}</div>', unsafe_allow_html=True)
 
 
